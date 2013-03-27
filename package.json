@@ -1,0 +1,40 @@
+{
+    "name": "inform-client",
+
+    "version": "0.0.0",
+    "description": "Client library for communicating with the InformJS daemon.",
+
+    "repository": "git://github.com/informjs/inform-client",
+
+    "author": "Brandon R. Stoner",
+    "author_email": "monokrome@limpidtech.com",
+
+    "license": "MIT",
+
+    "readmeFilename": "README.md",
+
+    "main": "./lib/inform",
+    "bin": "./bin/inform",
+
+    "directories": {
+        "lib": "./lib"
+    },
+
+    "scripts": {
+        "start": "inform",
+        "test": "mocha --reporter spec"
+    },
+
+    "dependencies": {
+        "lodash": "1.1.0",
+        "zmq": "2.3.0",
+        "prefer": "0.0.41"
+    },
+
+    "devDependencies": {
+        "coffee-script": "1.6.2",
+        "mocha": "1.8.2",
+        "chai": "1.5.0",
+        "sinon": "1.6.0"
+    }
+}
