@@ -1,7 +1,7 @@
 {
     "name": "inform-client",
 
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Client library for communicating with the InformJS daemon.",
 
     "repository": "git://github.com/informjs/inform-client",
@@ -30,7 +30,7 @@
         "lodash": "1.1.0",
         "zmq": "2.3.0",
         "prefer": "0.0.41",
-        "inform-shared": "0.0.0",
+        "inform-shared": "0.1.0",
         "optimist": "0.3.7"
     },
 
