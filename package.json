@@ -1,7 +1,7 @@
 {
     "name": "inform-cli",
 
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A command-line tool for sending messages to the inform daemon.",
 
     "repository": "git://github.com/informjs/inform-client",
