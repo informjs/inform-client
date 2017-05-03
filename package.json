@@ -1,43 +1,33 @@
 {
-    "name": "inform-cli",
-
-    "version": "0.1.1",
-    "description": "A command-line tool for sending messages to the inform daemon.",
-
-    "repository": "git://github.com/informjs/inform-client",
-
-    "author": "Brandon R. Stoner",
-    "author_email": "monokrome@limpidtech.com",
-
-    "license": "MIT",
-
-    "readmeFilename": "README.md",
-
-    "main": "./lib/inform",
-    "bin": "./bin/inform",
-
-    "directories": {
-        "lib": "./lib"
-    },
-
-    "scripts": {
-        "start": "inform",
-        "test": "mocha --reporter spec",
-        "prepublish": "make"
-    },
-
-    "dependencies": {
-        "inform-shared": "0.1.1",
-        "lodash": "4.13.1",
-        "prefer": "0.5.7",
-        "winston": "0.6.2",
-        "zmq": "2.15.3"
-    },
-
-    "devDependencies": {
-        "coffee-script": "1.6.2",
-        "mocha": "1.8.2",
-        "chai": "1.5.0",
-        "sinon": "1.6.0"
-    }
+  "name": "inform-cli",
+  "version": "0.1.1",
+  "description": "A command-line tool for sending messages to the inform daemon.",
+  "repository": "git://github.com/informjs/inform-client",
+  "author": "Brandon R. Stoner",
+  "author_email": "monokrome@limpidtech.com",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "./lib/inform",
+  "bin": "./bin/inform",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "start": "inform",
+    "test": "mocha --reporter spec",
+    "prepublish": "make"
+  },
+  "dependencies": {
+    "inform-shared": "0.1.1",
+    "lodash": "^4.17.4",
+    "prefer": "^0.5.8",
+    "winston": "0.6.2",
+    "zmq": "2.15.3"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.2",
+    "mocha": "1.8.2",
+    "chai": "1.5.0",
+    "sinon": "1.6.0"
+  }
 }
