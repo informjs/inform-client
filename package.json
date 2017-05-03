@@ -21,8 +21,7 @@
     "inform-shared": "0.1.1",
     "lodash": "^4.17.4",
     "prefer": "^0.5.8",
-    "winston": "0.6.2",
-    "zmq": "2.15.3"
+    "winston": "0.6.2"
   },
   "devDependencies": {
     "coffee-script": "1.6.2",
